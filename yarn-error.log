@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-native-async-storage/async-storage
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\nodejs\;C:\composer;C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python311\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Roaming\Composer\vendor\bin;C:\Users\User\Desktop;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bootstrap-icons/-/bootstrap-icons-1.10.5.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:550:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "task_2_frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.3.0",
+      "@fortawesome/free-solid-svg-icons": "^6.3.0",
+      "@fortawesome/react-fontawesome": "^0.2.0",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "bootstrap": "^5.2.3",
+      "bootstrap-icons": "^1.10.3",
+      "chart.js": "^4.3.0",
+      "fuse.js": "^6.6.2",
+      "html2canvas": "^1.4.1",
+      "jquery": "^3.6.3",
+      "mapbox-gl": "^2.15.0",
+      "pusher-js": "^8.2.0",
+      "qrcode.react": "^3.1.0",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.7.0",
+      "react-chartjs-2": "^5.2.0",
+      "react-dom": "^18.2.0",
+      "react-elastic-carousel": "^0.11.5",
+      "react-google-maps": "^9.4.5",
+      "react-icons": "^4.7.1",
+      "react-owl-carousel": "^2.3.3",
+      "react-router-dom": "^6.8.0",
+      "react-scripts": "5.0.1",
+      "react-select": "^5.7.0",
+      "react-slick": "^0.29.0",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
